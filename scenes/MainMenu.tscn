@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3 uid="uid://3x7bag54bqo2"]
+
+[ext_resource type="Script" path="res://MainMenu.gd" id="1_wui4s"]
+[ext_resource type="Texture2D" uid="uid://04jx7f20hhjq" path="res://assets/Frozen Skull tweaked by deevad.png" id="2_fkghb"]
+
+[node name="MainMenu" type="CanvasLayer"]
+script = ExtResource("1_wui4s")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(544.5, 457)
+scale = Vector2(1.14063, 1.7037)
+texture = ExtResource("2_fkghb")
+
+[node name="PlayButton" type="Button" parent="."]
+offset_left = 435.0
+offset_top = 465.0
+offset_right = 661.0
+offset_bottom = 559.0
+text = "PLAY"
+
+[node name="QuitButton" type="Button" parent="."]
+offset_left = 442.0
+offset_top = 674.0
+offset_right = 665.0
+offset_bottom = 769.0
+text = "QUIT"
